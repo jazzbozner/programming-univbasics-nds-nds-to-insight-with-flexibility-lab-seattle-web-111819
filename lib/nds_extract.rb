@@ -35,10 +35,11 @@ end
 
 def movies_with_director_key(name, movies_collection)
   collection_with_dir = []
-  # movie_index = 0
-  # while movie_index < movies_collection.length do
-  movies_collection.each do |movie|
+  movie_index = 0
+  while movie_index < movies_collection.length do
+  # movies_collection.each do |movie|
     collection_with_dir << movie_with_director_name(name, movie)
+    movie_index += 1
   end
   collection_with_dir
 end
