@@ -30,7 +30,7 @@ def movie_with_director_name(director_name, movie_data)
   }
 end
 
-binding.pry
+# binding.pry
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
