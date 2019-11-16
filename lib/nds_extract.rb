@@ -20,6 +20,9 @@ def flatten_a_o_a(aoa)
   result
 end
 
+pp result
+binding.pry
+
 def movie_with_director_name(director_name, movie_data)
   { 
     :title => movie_data[:title],
